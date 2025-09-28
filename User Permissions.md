@@ -133,6 +133,7 @@ chgrp users document.txt
 递归修改目录及其内容的所属组
 chgrp -R admins /data/project
 # 将 /data/project 目录及其中所有文件、子目录的所属组改为 admins 组
+```
 
 ## su、su-、sudo的区别
 
@@ -152,6 +153,6 @@ chgrp -R admins /data/project
 
 - su需共享目标用户密码，风险最高。
 - sudo仅需当前用户密码，且支持审计日志，安全性最佳。
-```
 
-# 
+
+
